@@ -43,7 +43,7 @@ ros2 launch kuka_gazebo kuka_bringup.launch.py
 cd ~/your_ros2_worksspace/src/KUKA-ROS-PICK-AND-PLACE/kuka_control/control_scripts/scripts
 python3 action_execution.py
 ```
-![Robot demo](media/demo.mp4)
+![Robot demo](media/demo1.mp4)
 
 
 
