@@ -19,7 +19,7 @@ sudo sudo apt install ros-humble-ros-gz
 sudo apt-get install ros-humble-ign-ros2-control
 ```
 
-### Build your workspace
+### 3.Build your workspace
 
 ```bash
 source /opt/ros/humble/setup.bash
@@ -27,6 +27,15 @@ cd ~/your_ros2_workspace
 colcon build
 source install/setup.bash
 ```
+
+## Usage
+
+### Launch the simulation 
+```bash
+ros2 launch kuka_gazebo kuka_bringup.launch.py
+```
+
+![Robot Setup](media/setup.png)
 
 
 
