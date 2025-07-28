@@ -37,6 +37,15 @@ ros2 launch kuka_gazebo kuka_bringup.launch.py
 
 ![Robot Setup](media/kuka.png)
 
+### For pick and place object
+
+```bash
+cd ~/your_ros2_worksspace/src/KUKA-ROS-PICK-AND-PLACE/kuka_control/control_scripts/scripts
+python3 action_execution.py
+```
+![Robot demo](media/demo.mp4)
+
+
 
 
 
