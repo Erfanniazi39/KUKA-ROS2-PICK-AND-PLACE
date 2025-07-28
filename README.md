@@ -35,7 +35,7 @@ source install/setup.bash
 ros2 launch kuka_gazebo kuka_bringup.launch.py
 ```
 
-![Robot Setup](media/setup.png)
+![Robot Setup](media/kuka.png)
 
 
 
